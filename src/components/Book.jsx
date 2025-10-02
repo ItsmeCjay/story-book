@@ -48,11 +48,11 @@ const Book = ({ bookData }) => {
               page.isFirstPageOfChapter
     );
     if (chapterFirstPage !== -1) {
-      setCurrentPageIndex(chapterFirstPage);
+      setCurrentPageIndex(chapterFirstPage + 1);
     }
   };
 
-  const currentPage = currentPageIndex >= 0 ? allPages[currentPageIndex] : null;
+  const currentPage = currentPageIndex > 0 ? allPages[currentPageIndex - 1] : null;
 
   return (
     <div className="book-container">
