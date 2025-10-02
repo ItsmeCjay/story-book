@@ -21,7 +21,7 @@ const Book = ({ bookData }) => {
   const totalPages = allPages.length;
 
   const goToNextPage = () => {
-    if (currentPageIndex < totalPages - 1 && !isFlipping) {
+    if (currentPageIndex < totalPages && !isFlipping) {
       setIsFlipping(true);
       setFlipDirection('next');
       setTimeout(() => {
@@ -91,14 +91,7 @@ const Book = ({ bookData }) => {
                 <div className="text-content">{currentPage.content}</div>
                 <p className="page-number">{currentPageIndex}</p>
               </div>
-            ) : (
-              <div className="page-content">
-                <div className="the-end">
-                  <h2>The End</h2>
-                  <p>To be continued...</p>
-                </div>
-              </div>
-            )}
+            ) : null}
           </div>
 
           {/* Page flip animation overlay */}
@@ -123,7 +116,7 @@ const Book = ({ bookData }) => {
         <button
           className="nav-button next"
           onClick={goToNextPage}
-          disabled={currentPageIndex === totalPages - 1 || isFlipping}
+          disabled={currentPageIndex === totalPages || isFlipping}
         >
           Next →
         </button>
