@@ -319,31 +319,9 @@
   text-align: justify;
   flex: 1;
   white-space: pre-wrap;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: hidden;
   padding-right: 0.5rem;
   margin-bottom: 0.5rem; /* Extra space above page number */
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-}
-
-/* Custom scrollbar for webkit browsers */
-.text-content::-webkit-scrollbar {
-  width: 6px;
-}
-
-.text-content::-webkit-scrollbar-track {
-  background: rgba(212, 197, 185, 0.2);
-  border-radius: 3px;
-}
-
-.text-content::-webkit-scrollbar-thumb {
-  background: rgba(149, 165, 166, 0.5);
-  border-radius: 3px;
-}
-
-.text-content::-webkit-scrollbar-thumb:hover {
-  background: rgba(149, 165, 166, 0.7);
 }
 
 @media (min-width: 480px) {
