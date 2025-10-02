@@ -53,14 +53,13 @@ const Book = ({ bookData }) => {
   };
 
   const currentPage = currentPageIndex >= 0 ? allPages[currentPageIndex] : null;
-  const nextPage = currentPageIndex >= 0 && currentPageIndex < totalPages - 1 ? allPages[currentPageIndex + 1] : null;
 
   return (
     <div className="book-container">
       <div className="book-wrapper">
-        <div className={`book ${isFlipping ? 'flipping' : ''} ${flipDirection}`}>
-          {/* Left Page */}
-          <div className="page left-page">
+        <div className={`book single-page ${isFlipping ? 'flipping' : ''} ${flipDirection}`}>
+          {/* Single Page Display */}
+          <div className="page single">
             {currentPageIndex === -1 ? (
               <div className="cover-page">
                 <div className="cover-content">
@@ -69,20 +68,7 @@ const Book = ({ bookData }) => {
                   <p className="book-author">by {bookData.cover.author}</p>
                 </div>
               </div>
-            ) : currentPage ? (
-              <div className="page-content">
-                {currentPage.isFirstPageOfChapter && (
-                  <h3 className="chapter-title">{currentPage.chapterTitle}</h3>
-                )}
-                <div className="text-content">{currentPage.content}</div>
-                <p className="page-number">{currentPageIndex + 1}</p>
-              </div>
-            ) : null}
-          </div>
-
-          {/* Right Page */}
-          <div className="page right-page">
-            {currentPageIndex === -1 ? (
+            ) : currentPageIndex === 0 ? (
               <div className="first-page">
                 <h2>Table of Contents</h2>
                 <div className="toc">
@@ -97,13 +83,13 @@ const Book = ({ bookData }) => {
                   ))}
                 </div>
               </div>
-            ) : nextPage ? (
+            ) : currentPage ? (
               <div className="page-content">
-                {nextPage.isFirstPageOfChapter && (
-                  <h3 className="chapter-title">{nextPage.chapterTitle}</h3>
+                {currentPage.isFirstPageOfChapter && (
+                  <h3 className="chapter-title">{currentPage.chapterTitle}</h3>
                 )}
-                <div className="text-content">{nextPage.content}</div>
-                <p className="page-number">{currentPageIndex + 2}</p>
+                <div className="text-content">{currentPage.content}</div>
+                <p className="page-number">{currentPageIndex}</p>
               </div>
             ) : (
               <div className="page-content">
@@ -131,7 +117,7 @@ const Book = ({ bookData }) => {
         </button>
 
         <div className="page-indicator">
-          {currentPageIndex === -1 ? 'Cover' : `Page ${currentPageIndex + 1} of ${totalPages}`}
+          {currentPageIndex === -1 ? 'Cover' : currentPageIndex === 0 ? 'Table of Contents' : `Page ${currentPageIndex} of ${totalPages}`}
         </div>
 
         <button

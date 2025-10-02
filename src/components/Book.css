@@ -108,6 +108,19 @@
   background: linear-gradient(to left, #f5f1eb 0%, #f9f7f4 100%);
 }
 
+/* Single page layout */
+.book.single-page {
+  justify-content: center;
+}
+
+.page.single {
+  flex: none;
+  width: 100%;
+  max-width: 800px;
+  border: none;
+  background: #f9f7f4;
+}
+
 .page::before {
   content: '';
   position: absolute;
