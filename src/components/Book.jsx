@@ -53,6 +53,7 @@ const Book = ({ bookData }) => {
   };
 
   const currentPage = currentPageIndex >= 0 ? allPages[currentPageIndex] : null;
+  const nextPage = currentPageIndex >= 0 && currentPageIndex < totalPages - 1 ? allPages[currentPageIndex + 1] : null;
 
   return (
     <div className="book-container">
@@ -68,14 +69,15 @@ const Book = ({ bookData }) => {
                   <p className="book-author">by {bookData.cover.author}</p>
                 </div>
               </div>
-            ) : currentPageIndex > 0 && currentPageIndex % 2 === 1 ? (
+            ) : currentPage ? (
               <div className="page-content">
-                <p className="page-number">{currentPageIndex}</p>
-                <div className="text-content">{allPages[currentPageIndex - 1]?.content}</div>
+                {currentPage.isFirstPageOfChapter && (
+                  <h3 className="chapter-title">{currentPage.chapterTitle}</h3>
+                )}
+                <div className="text-content">{currentPage.content}</div>
+                <p className="page-number">{currentPageIndex + 1}</p>
               </div>
-            ) : (
-              <div className="page-content empty"></div>
-            )}
+            ) : null}
           </div>
 
           {/* Right Page */}
@@ -95,13 +97,13 @@ const Book = ({ bookData }) => {
                   ))}
                 </div>
               </div>
-            ) : currentPage ? (
+            ) : nextPage ? (
               <div className="page-content">
-                {currentPage.isFirstPageOfChapter && (
-                  <h3 className="chapter-title">{currentPage.chapterTitle}</h3>
+                {nextPage.isFirstPageOfChapter && (
+                  <h3 className="chapter-title">{nextPage.chapterTitle}</h3>
                 )}
-                <div className="text-content">{currentPage.content}</div>
-                <p className="page-number">{currentPageIndex + 1}</p>
+                <div className="text-content">{nextPage.content}</div>
+                <p className="page-number">{currentPageIndex + 2}</p>
               </div>
             ) : (
               <div className="page-content">
