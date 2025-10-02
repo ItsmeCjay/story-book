@@ -1,91 +1,285 @@
 export const bookData = {
-  title: "The Midnight Chronicles",
-  author: "Anonymous",
+  title: "My Side of Our Story",
+  author: "cjay pogi",
   cover: {
-    title: "The Midnight Chronicles",
-    subtitle: "A Tale of Mystery and Wonder",
-    author: "Anonymous"
+    title: "My Side of Our Story",
+    subtitle: "A Love Story Across Distance",
+    author: "cjay pogi"
   },
   chapters: [
     {
       id: 1,
-      title: "Chapter 1: The Beginning",
+      title: "Chapter 1: How I Actually Knew Her",
       pages: [
         {
           id: 1,
-          content: `The old clock tower struck midnight as Emma walked through the empty streets. The fog was thick tonight, wrapping around the lamp posts like ghostly fingers reaching out from another world.
+          content: `Life has a funny way of bringing people together. Sometimes it starts with a friend, a casual conversation, and a name you've never heard before but will never forget.
 
-She had always loved this time of night—when the city slept and she could think clearly. But tonight felt different. There was a weight in the air, a sense that something was about to change.
+It all began with Jabi. We had been friends in Isabela, my hometown—a place where everyone knew everyone, and new faces were rare. Jabi had come from Pangasinan, and somehow, despite being from different worlds, we clicked instantly. There was something easy about our friendship, the kind where you could talk about anything and everything.
 
-As she turned the corner onto Ashwood Lane, she noticed a light flickering in the window of the abandoned bookstore. Strange. The place had been empty for years, ever since old Mr. Crawford had passed away.
+One day, during one of our usual conversations, Jabi brought up someone new. "You know," Jabi said with a knowing smile, "I have this friend back in Pangasinan. Her name is Kathleen."
 
-Emma's curiosity got the better of her, and she found herself walking toward the door.`
+The way Jabi said her name—it lingered in the air, like it carried weight, like it meant something. I was curious, of course. Jabi pulled out a phone and showed me photos of her. And there she was—Kathleen. Even through a screen, there was something about her smile, something in her eyes that caught me off guard.
+
+"She's something special," Jabi said, watching my reaction. "You should add her on Instagram and Facebook. I think you two would get along."
+
+So I did. I sent friend requests, wondering if she'd accept, wondering what she was like beyond those photos.`
         },
         {
           id: 2,
-          content: `The door creaked open at her touch, as if it had been waiting for her. Inside, the smell of old paper and leather filled her lungs—a comforting scent that reminded her of childhood visits to the library with her grandmother.
+          content: `What I didn't know was that Jabi had called Kathleen right after, playing matchmaker. "Hey, my friend CJay just added you on social media," Jabi told her. "Just talk to him. He wants to be friends with you."
 
-"Hello?" she called out, her voice echoing through the dusty aisles.
+But Kathleen's response wasn't what I had hoped for. She had a boyfriend at the time, and she was clear about her boundaries. "I have a boyfriend," she told Jabi. "And I don't want anything long-distance. He's in Isabela, I'm here in Pangasinan. It wouldn't work."
 
-No answer came, but the light continued to flicker from somewhere deep within the store. Emma moved forward, her footsteps muffled by the thick carpet of dust on the wooden floor.
+The distance between our provinces felt vast then—Isabela and Pangasinan, separated by hours of travel and different lives. It seemed like an ending before anything could even begin.
 
-As she ventured deeper, she began to notice something odd. The books on the shelves seemed to glow faintly, as if lit from within. She reached out to touch one, and as her fingers made contact with the spine, the world around her began to spin.`
+But then she accepted my friend request.`
+        },
+        {
+          id: 3,
+          content: `Maybe it was out of politeness, maybe curiosity, or maybe something else entirely. Whatever the reason, she had accepted my friend request.
+
+When I found out she had a boyfriend, I knew I had to step back. The last thing I wanted was to complicate her life or be that person who didn't respect boundaries. So I laid low. I stopped being so forward, stopped hoping for something that wasn't available.
+
+But I'd be lying if I said the crush just disappeared. It was still there, quietly sitting in the back of my mind. So every now and then, casually, I'd like a post or drop a comment on her NGL links—nothing excessive, nothing that would make things awkward. Just... existing in her world, from a distance.
+
+I told myself I was just being a friend. But deep down, I think I was just waiting—for what, I didn't know.`
+        },
+        {
+          id: 4,
+          content: `Time passed, and her birthday came around. I greeted her—a simple "Happy Birthday" message, nothing more. She thanked me, and that was it. I kept my distance, respecting the boundaries that existed between us.
+
+Months went by. I was deep into my fourth year of college, drowning in thesis work, late nights, and endless revisions. Life was hectic, but somehow, she was still on my mind.
+
+One day, on impulse, I decided to reach out. Maybe it was the stress getting to me, or maybe I just wanted to know how she was doing. I sent her a message, casual and friendly: "Hey, are you okay?"
+
+I didn't expect much. Maybe a short reply, maybe nothing at all.
+
+But she responded. And what she said surprised me: "I'm not okay."
+
+Those three words opened a door I thought had closed. I could feel that she needed someone, and I wanted to be that person—not because I had an agenda, but because I genuinely cared.
+
+"If you need to talk about anything, or just rant, I'm here," I told her. "No pressure."
+
+And just like that, we started talking again. Not as strangers anymore, but as two people who needed someone to listen.`
+        },
+        {
+          id: 5,
+          content: `A week passed. I wondered if she was doing better, if whatever had been weighing on her had gotten lighter. So I reached out again.
+
+"Hey, are you okay now?"
+
+Her reply came quickly this time: "I'm okay now. Thanks for asking."
+
+Simple words, but they meant something. She was okay. And maybe, in some small way, I had helped.
+
+A month slipped by—October was coming to an end. Something in me felt the need to check on her again. Maybe it was intuition, maybe just concern. I sent another message: "Hey, are you okay?"
+
+This time, her response was different: "I'm not okay."
+
+We started talking, really talking. And then, unexpectedly, she began asking me questions—deep questions about love. What is love, really? How do you know when it's real? What should love feel like?`
+        },
+        {
+          id: 6,
+          content: `I could sense something was wrong with her relationship. The questions she was asking weren't abstract—they were personal, searching, hurting. She was trying to understand what she was experiencing with her boyfriend, trying to make sense of something that didn't feel right.
+
+I answered each one carefully, respectfully, meaningfully. I chose my words wisely, not wanting to overstep, but wanting to be honest. I told her what I believed love should be—not what she was going through, but what she deserved.
+
+After our conversation, she thanked me for listening. The way she said it felt genuine, like it meant something to her. We ended the conversation respectfully, and I felt like maybe, just maybe, we had built something deeper between us—a real connection, a mutual understanding.`
+        },
+        {
+          id: 7,
+          content: `But life has a way of humbling you when you start to hope too much.
+
+A week later, I was scrolling through social media when I saw her posts. Her stories. Photos of her and her boyfriend—smiling, happy, together. They were okay now. They had worked things out.
+
+It hit me harder than I expected. All those deep conversations, all those questions about love—I had helped her find her way back to him. And in that moment, I remembered exactly who I was to her: just someone who listened. Nothing more.
+
+I laid low again, stepping back into the shadows where I belonged. I even told Jabi about it, trying to play it off as a joke. "Hey, they're okay now—because of me," I said, laughing it off. But Jabi knew. And deep down, so did I.
+
+It hurt, but I respected it. If she was happy, that was what mattered. Even if it wasn't with me.`
         }
       ]
     },
     {
       id: 2,
-      title: "Chapter 2: The Discovery",
+      title: "Chapter 2: How We Met for the First Time Personally",
       pages: [
         {
-          id: 3,
-          content: `When Emma opened her eyes, she was no longer in the bookstore. She stood in a vast library that seemed to stretch endlessly in all directions. Towering shelves reached up into darkness, and floating lanterns drifted lazily through the air, casting warm golden light.
+          id: 8,
+          content: `Months had passed since I last really talked to Kathleen. Life moved on, as it always does.
 
-"Where... where am I?" she whispered.
+I had packed my bags and moved to Manila for my OJT—my internship, the final requirement before graduation. It was a fresh start, a new chapter. The city was busy, crowded, full of possibilities and distractions. I threw myself into work, into the daily grind of commuting and deadlines and learning the ropes of the real world.
 
-"You're in the Library Between," a voice answered. Emma spun around to find an elderly woman in flowing robes standing behind her. "The place where all stories live, breathe, and wait to be told."
+I was living my life as a single person, doing what I wanted, going where I pleased. No complications, no heartache, no wondering if she'd notice my likes or my comments. I had laid low for so long that it started to feel natural. Normal.
 
-The woman's eyes twinkled with ancient wisdom. "I'm the Keeper, and you, Emma, have been chosen."
+And somewhere along the way, I started to feel ready. Ready to let go. Ready to uncrush her, as silly as that sounded. She was happy with her boyfriend, and I was okay with that. Or at least, I was learning to be.
 
-"Chosen for what?" Emma asked, her heart racing.`
+I thought I had moved on.`
         },
         {
-          id: 4,
-          content: `The Keeper smiled gently and gestured to the endless shelves. "Every book here contains a world—some complete, others waiting to be finished. But recently, something has been going wrong. Stories are disappearing, characters are fading, and entire worlds are at risk of being forgotten."
+          id: 9,
+          content: `But then one day, scrolling through social media out of habit, I saw it—a note she posted. She was coming to Manila for her nursing affiliation. Two weeks. She'd be here, in the same city as me, for two whole weeks.
 
-She placed a weathered hand on Emma's shoulder. "We need someone from the outside world, someone with a pure love of stories, to help us find out what's happening and stop it."
+And just like that, everything I thought I had buried came rushing back. My heart skipped. My mind raced. This was it—a chance I never thought I'd get. A chance to see her, not just through a screen, but in person. To actually meet the girl I'd been crushing on for so long.
 
-Emma looked around at the magnificent library, feeling both overwhelmed and strangely at home. "Why me?"
+The feelings I thought I'd let go of? They were still there, waiting.
 
-"Because," the Keeper said, her voice soft but certain, "you're a dreamer, Emma. And dreamers can see what others cannot."`
+I didn't overthink it. I opened our chat and sent a message: "Hey, I saw your note. Are you really coming to Manila?"
+
+Her reply came soon after: "Yes, I am! I'll be staying here for 2 weeks for my affiliation."
+
+Two weeks. She'd be here for two weeks.
+
+My heart was already making plans my brain hadn't caught up to yet.`
+        },
+        {
+          id: 10,
+          content: `One night, I was out with my friends, having drinks, unwinding from the week. She was doing the same—out with her own friends, enjoying the Manila nightlife. I saw her post a note: "I want ice cream."
+
+I had just gotten myself ice cream earlier. And maybe it was the drinks, maybe it was courage I didn't usually have, but I did something silly. I posted my own note with a picture of my ice cream, showing it off like a trophy.
+
+She replied to it almost immediately: "Give me some!"
+
+I laughed. We started chatting, back and forth, the conversation flowing easy and light. The kind of talk you have when you're both a little buzzed and a little brave.
+
+And then, out of nowhere, she asked: "Do you want to meet up?"
+
+My heart stopped. Did she really just ask that?
+
+"I don't know where though," she added.
+
+"There's a Starbucks near my boarding house," she said. "We should go there."
+
+I didn't need to think twice. "Let's do it."
+
+Just like that, after all this time, all the waiting, all the wondering—we were finally going to meet.`
+        },
+        {
+          id: 11,
+          content: `The next morning, I woke up with an energy I hadn't felt in months. I was excited—genuinely, nervously excited. I went through my closet, picking out clothes, making sure everything looked good. What should I wear? Should I dress up? Keep it casual? I wanted to make a good first impression, even though we'd been talking for so long.
+
+I was ready. More than ready.
+
+Then my phone buzzed. A message from her.
+
+"Are you really gonna come?" she asked.
+
+I could sense something different in her tone. Hesitation. Confusion. Maybe second thoughts.
+
+"Don't come if you can't," she added.
+
+My heart sank a little. Was she backing out? Did she change her mind?
+
+I stared at my phone, trying to figure out what to say, how to respond. After all this time, after finally getting the chance to meet her, was it about to slip away?`
+        },
+        {
+          id: 12,
+          content: `But then something in me decided: No. I'm still going.
+
+This might be my first and last chance to meet her. She was only here for two weeks, and who knew when—or if—we'd ever get this opportunity again? I wasn't going to let doubt or confusion stop me. Not this time.
+
+Whatever happened, at least I'd know I tried. At least I'd finally see her, face to face, even if just once.
+
+I had made up my mind. I was going to meet Kathleen.
+
+I booked a MoveIt motorcycle, my heart pounding the entire ride. The streets of Manila blurred past me, but all I could think about was her. What would she look like in person? What would I say? Would I mess this up?
+
+And then I arrived at the Starbucks near her boarding house.
+
+And there she was.`
+        },
+        {
+          id: 13,
+          content: `Kathleen. In person. Real. Right in front of me.
+
+It felt like a dream. Like something I'd imagined so many times that now that it was happening, my brain couldn't quite process it. Her smile, her voice, the way she talked—it was all so much more than what a screen could ever capture.
+
+I'm an introvert by nature. I'm not great with words, especially when my heart is racing. So I did what I do best—I listened. She told me stories, about her day, her friends, her nursing affiliation, whatever came to mind. And I sat there, nodding, taking it all in, just happy to be in her presence.
+
+It didn't matter that I wasn't saying much. What mattered was that I was finally here, with her, sharing the same space, the same moment.
+
+It was everything I'd hoped for, and more.`
+        },
+        {
+          id: 14,
+          content: `We talked for a while, the conversation flowing naturally despite my nerves. And when it was time to say goodbye, we both smiled—genuine smiles that said more than words could.
+
+I went home that night feeling like I was floating.
+
+But what I didn't expect was what came next.
+
+After that meetup, we started talking every day. Every single day. Good morning messages, random thoughts throughout the day, late-night conversations that stretched into the early hours. It became our routine, our normal.
+
+And I couldn't believe it. After all those months of laying low, of keeping my distance, of trying to move on—here I was, talking to her every day like it was the most natural thing in the world.
+
+Sometimes I had to pinch myself. Was this real? Was this actually happening? Or was I dreaming?
+
+But every time my phone buzzed with her name, I knew it was real. And I never wanted it to end.`
         }
       ]
     },
     {
       id: 3,
-      title: "Chapter 3: The First Quest",
+      title: "Chapter 3: How We Are Able to Continue Our Love Story",
       pages: [
         {
-          id: 5,
-          content: `The Keeper led Emma through the winding corridors of the Library Between. As they walked, Emma noticed that some books were dimmer than others, their glow barely perceptible.
+          id: 15,
+          content: `The two weeks flew by faster than I wanted them to.
 
-"Those are the endangered stories," the Keeper explained, following Emma's gaze. "They're losing their essence, their connection to the dreamers who once kept them alive."
+During our meetup at Starbucks, she had told me something important—something that gave me hope but also scared me. She and her boyfriend weren't okay when she came to Manila. Things between them were falling apart.
 
-They stopped before a particularly dim book, its cover barely visible in the shadows. The Keeper carefully pulled it from the shelf and handed it to Emma. The moment she touched it, images flooded her mind—a castle, a dragon, a knight in tarnished armor.
+But now she was going home. Back to Pangasinan. Back to where he was.
 
-"This is where you begin," the Keeper said. "Enter the story, find what's wrong, and restore it."`
+And I knew what that meant. Her boyfriend would probably meet her at her house. They'd talk, they'd try to fix things, they'd work it out—just like before. And me? I'd go back to being the friend who listened. The one who waited in the background. The one who laid low.
+
+I had been here before. I knew how this story went.
+
+So I braced myself. I prepared to step back again, to let her go, to accept that this was just a beautiful two weeks and nothing more.`
         },
         {
-          id: 6,
-          content: `Emma held the book with trembling hands. "How do I enter a story?"
+          id: 16,
+          content: `But then... he didn't show up.
 
-"You already know how," the Keeper replied with a knowing smile. "You've been doing it all your life, every time you read. You just need to believe."
+She told me her boyfriend didn't come to meet her. Didn't try to fix things. Didn't reach out.
 
-Emma took a deep breath and opened the book. The words on the page began to shimmer and dance, lifting off the paper like golden butterflies. They swirled around her, faster and faster, until she felt herself being pulled into the pages.
+And we kept talking. Every day, just like before. But now it felt different—deeper, more intentional. We weren't just chatting anymore. We were building something. Something real.
 
-The last thing she heard was the Keeper's voice: "Remember, Emma—in the world of stories, belief is the most powerful magic of all."
+Maybe, just maybe, this time it wouldn't end with me laying low.`
+        },
+        {
+          id: 17,
+          content: `Some things you never see coming. Some connections are so strong, so unexpected, that they change everything you thought you knew about love and distance and timing.
 
-And then she was falling, tumbling through words and dreams, toward her first adventure in the Library Between.`
+What Kathleen and I built together was something I could have never imagined.
+
+After she went back to Pangasinan, after her ex-boyfriend failed to show up, after we kept talking every single day—things just... fell into place. We didn't need grand declarations or perfect moments. We just knew.
+
+I started visiting her in Pangasinan. Not just once, but several times. The distance between Isabela and Pangasinan—the same distance that once felt impossible—became just a journey I was willing to make. Again and again.
+
+We spent time together like any couple would. Casual dates, long walks, shared meals, late-night conversations under the stars. We were boyfriend and girlfriend, doing what people in love do—building memories, creating our own world, falling deeper with each moment.
+
+And the connection we had? It was unbreakable. The kind of bond that distance couldn't weaken, that time couldn't fade, that no one could come between.
+
+We had found something rare. Something worth fighting for. Something worth the wait.`
+        },
+        {
+          id: 18,
+          content: `On May 23, 2025, I asked her to be my girlfriend. And she said yes.
+
+It was official. After all the waiting, all the laying low, all the moments of doubt and hope—Kathleen was mine, and I was hers.
+
+The distance between us is still there. I'm now here in Manila—the company where I did my internship absorbed me, and I'm working here full-time. She's in Pangasinan. Isabela and Pangasinan haven't moved any closer. But we've learned that distance is just a test of how far love can travel. And ours? It travels every single day.
+
+I maintain our relationship by staying loyal to her, by being committed even when it's hard, even when I miss her, even when all I want is to hold her hand. I choose her every day, and she chooses me.`
+        },
+        {
+          id: 19,
+          content: `My plans for the future are simple but everything: to build a beautiful family with her. To make her happy for the rest of her life. To be the person she deserves, the one who never gave up, the one who waited for the right moment.
+
+We're planning our future together now. And every day feels like a blessing—a reminder that the best things in life are worth waiting for.
+
+This is our love story. And it's only just beginning.`
         }
       ]
     }
